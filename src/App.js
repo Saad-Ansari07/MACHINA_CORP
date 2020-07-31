@@ -18,17 +18,17 @@ function App() {
       <div className="menu">
       <button className="btn">SIGN UP</button>
       <div className="drop-menu">
-      <img className="icon1" src={facebook} alt={logo}></img>
+      <img className="icon1" src={facebook} alt={'logo'}></img>
         <p  className="a6"> Sign up by FB </p>
-      <img className="icon2" src={home} alt={logo}></img>
+      <img className="icon2" src={home} alt={'logo'}></img>
                   <p  className="a7">
                           Your account
                   </p>
-      <img className="icon3" src={settings} alt={logo}></img>           
+      <img className="icon3" src={settings} alt={'logo'}></img>           
                   <p  className="a8">
                           Account settings
                   </p>
-      <img className="icon4" src={newacc} alt={logo}></img>         
+      <img className="icon4" src={newacc} alt={'logo'}></img>         
                   <p  className="a9">
                           Make account
                   </p>
