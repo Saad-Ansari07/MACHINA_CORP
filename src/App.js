@@ -18,20 +18,20 @@ function App() {
       <div className="menu">
       <button className="btn">SIGN UP</button>
       <div className="drop-menu">
-      <img className="icon1" src={facebook}></img>
-        <a href="#" className="a6"> Sign up by FB </a>
-      <img className="icon2" src={home}></img>
-                  <a href="#" className="a7">
+      <img className="icon1" src={facebook} alt={logo}></img>
+        <p  className="a6"> Sign up by FB </p>
+      <img className="icon2" src={home} alt={logo}></img>
+                  <p  className="a7">
                           Your account
-                  </a>
-      <img className="icon3" src={settings}></img>           
-                  <a href="#" className="a8">
+                  </p>
+      <img className="icon3" src={settings} alt={logo}></img>           
+                  <p  className="a8">
                           Account settings
-                  </a>
-      <img className="icon4" src={newacc}></img>         
-                  <a href="#" className="a9">
+                  </p>
+      <img className="icon4" src={newacc} alt={logo}></img>         
+                  <p  className="a9">
                           Make account
-                  </a>
+                  </p>
        </div>
       </div>
         <img className="mac" src={machine2} alt={'an automachine'}></img>
@@ -43,11 +43,11 @@ function App() {
         <img className="mac2" src={machine1} alt={'an automachine'}></img>
       </div>
       <div className="bottom">
-        <a href="#" className="a1">Details</a>
-        <a href="#" className="a2">Members</a>
-        <a href="#" className="a3">Branches</a>
-        <a href="#" className="a4">Offices</a>
-        <a className="a5">&copy; 2020 Machina.com</a>
+        <p  className="a1">Details</p>
+        <p  className="a2">Members</p>
+        <p  className="a3">Branches</p>
+        <p  className="a4">Offices</p>
+        <p  className="a5">&copy; 2020 Machina.com</p>
       </div>
     </div>
   );
