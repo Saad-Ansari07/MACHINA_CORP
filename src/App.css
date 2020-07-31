@@ -59,7 +59,7 @@ body {
 
 .bottom {
   background-color: #003557;
-  display: inline;
+  display: inline-block;
   text-align: center;
 } 
 
@@ -69,7 +69,7 @@ body {
   font-family: Impact, fantasy; 
   text-decoration: none;
   color: black;
-  padding: 40px;
+  padding: 10px;
 }
 .menu {
   position: absolute;
