@@ -63,7 +63,7 @@ body {
   text-align: center;
 } 
 
-.bottom a {
+.bottom p {
   font-size: 20px;
   font-weight: 0.5px;
   font-family: Impact, fantasy; 
@@ -107,7 +107,7 @@ body {
   box-shadow: #033e72;
 }
 
-.drop-menu a {
+.drop-menu p {
   color: white;
   text-decoration: none;
   font-weight: 1px;
@@ -116,7 +116,7 @@ body {
   display: inline;
 } 
 
-.drop-menu a:hover {
+.drop-menu p:hover {
   background-color: #73bbfa;
 }
 
