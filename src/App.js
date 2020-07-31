@@ -21,7 +21,7 @@ function App() {
         <p className="par">Welcome to the industrial complex machina,<br></br> we will be honored to work with you.</p>
       </header>
       <div className="middle">
-        <h2 className="t2">The future is now</h2>
+        <h2 className="t2" ref={x}>The future is now</h2>
         <p className="p2">Join us and realize your dream of automation in industry.</p>
         <img className="mac2" src={machine1} alt={'an automachine'} ref={left}></img>
       </div>
