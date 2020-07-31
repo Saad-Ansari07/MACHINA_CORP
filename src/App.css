@@ -39,6 +39,8 @@ body {
 
  .middle {
    background: linear-gradient(to bottom, #0073da 0%, #003557 100%);
+   margin-top: 10vh;
+
  }
 
  .t2 {
