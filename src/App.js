@@ -32,7 +32,7 @@ function App() {
         <p className="p2">Join us and realize your dream of automation in industry.</p>
         <img className="mac2" src={machine1} alt={'an automachine'}></img>
       </div>
-      <div className="bottom">
+      <div className="bottom" data-aos="fade-in">
         <p  className="a1">Details</p>
         <p  className="a2">Members</p>
         <p  className="a3">Branches</p>
