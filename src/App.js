@@ -1,17 +1,24 @@
 import React from 'react';
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // <-- IMPORTING IMAGES -->
 import machine2 from './images/machine2.gif';
 import machine1 from './images/machine1.gif';
 
 // <-- IMPORTING ANIMATIONS -->
-import useWebAnimations, { shakeX, fadeInLeft, fadeInRight } from "@wellyshen/use-web-animations";
+import useWebAnimations, { shakeX, fadeInLeft, fadeInRight, shakeY } from "@wellyshen/use-web-animations";
 
 function App() {
     const { ref: x } = useWebAnimations({ ...shakeX });
+    const { ref: y } = useWebAnimations({ ...shakeY });
     const { ref: left } = useWebAnimations({ ...fadeInLeft });
     const { ref: right } = useWebAnimations({ ...fadeInRight });
+    AOS.init({
+        offset: 200,
+        duration: 1000
+    });
   return (
     <div className="container">
       <header className="header">
@@ -20,8 +27,8 @@ function App() {
         <img className="mac" src={machine2} alt={'an automachine'} ref={right}></img>
         <p className="par">Welcome to the industrial complex machina,<br></br> we will be honored to work with you.</p>
       </header>
-      <div className="middle">
-        <h2 className="t2" ref={x}>The future is now</h2>
+      <div className="middle" data-aos="fade-in">
+        <h2 className="t2" ref={y}>The future is now</h2>
         <p className="p2">Join us and realize your dream of automation in industry.</p>
         <img className="mac2" src={machine1} alt={'an automachine'} ref={left}></img>
       </div>
