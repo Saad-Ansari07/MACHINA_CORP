@@ -1,0 +1,176 @@
+body {
+  margin: 0ch;
+  padding: 0ch;
+  border: 0ch;
+  background: #003557;
+}
+     
+.container {
+  text-align: center;    
+  display: flex;
+  flex-direction: column;
+}
+
+.mac {
+  margin-left: 670px;
+}
+
+.heading {
+  font-size: 70px;
+  font-weight: 4px;
+  font-family: Impact, fantasy; 
+  color: white;
+  margin-top: 0ch;
+}
+
+ .header {
+   background: linear-gradient(to bottom, #638eeb 0%, #0073da 100%);
+ }
+
+ .par {
+  font-size: 30px;
+  font-weight: 1px;
+  font-family: Impact, fantasy; 
+  color: white;
+  position: absolute;
+  top: 36vh;
+  left: 100px;
+ }
+
+ .middle {
+   background: linear-gradient(to bottom, #0073da 0%, #003557 100%);
+ }
+
+ .t2 {
+  font-size: 50px;
+  font-weight: 2px;
+  font-family: Impact, fantasy; 
+  color: white;
+ }
+
+ .p2 {
+  font-size: 30px;
+  font-weight: 1px;
+  font-family: Impact, fantasy; 
+  color: white;
+  margin-top: 2vh;
+  margin-right: 68vh;
+ }
+
+.bottom {
+  background-color: #003557;
+  display: inline;
+  text-align: center;
+} 
+
+.bottom a {
+  font-size: 20px;
+  font-weight: 0.5px;
+  font-family: Impact, fantasy; 
+  text-decoration: none;
+  color: black;
+  padding: 40px;
+}
+
+.menu {
+  position: absolute;
+  top: 4vh;
+  left: 25vh;
+  display: inline-block;
+}
+
+.btn {
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  border: solid;
+  background-color: transparent;
+  border-width: 2px;
+  width: 100px;
+  height: 35px;
+  font-weight: 1px;
+  font-family: Impact, fantasy; 
+  font-size: 24px;
+  align-items: center;
+}
+.btn:hover {
+  box-shadow: 0px 0px 10px rgb(252, 240, 240), 0px 0px 10px rgb(250, 227, 227);
+  background-color: rgb(250, 221, 221);
+  cursor: pointer;
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+  max-height: 160px;
+  min-width: 50px;
+  background-color: #0073da;
+  box-shadow: #033e72;
+}
+
+.drop-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 1px;
+  font-family: Impact, fantasy; 
+  font-size: 17px;
+  display: inline;
+} 
+
+.drop-menu a:hover {
+  background-color: #73bbfa;
+}
+
+.menu:hover .drop-menu {
+  display: block;
+}
+
+.icon1{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 30vh;
+}
+.icon2{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 30vh;
+  margin-top: 0.5vh;
+}
+.icon3{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 30vh;
+  margin-top: 1vh;
+}
+.icon4{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 30vh;
+  margin-top: 1.2vh;
+}
+ .a6 {
+  position: absolute;
+  left: 4.5vh;
+  top: 1vh;
+}
+.a7 {
+  position: absolute;
+  left: 4.5vh;
+  top: 5.5vh;
+}
+.a8 {
+  position: absolute;
+  left: 4.5vh;
+  top: 9.9vh;
+}
+.a9 {
+  position: absolute;
+  left: 4.5vh;
+  top: 15vh;
+} 
+
+
+ 
