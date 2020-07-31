@@ -2,7 +2,7 @@ body {
   margin: 0ch;
   padding: 0ch;
   border: 0ch;
-  background: linear-gradient(to bottom, #638eeb 0%, #0073da 100%);
+  background: #638eeb;
 }
      
 .container {
@@ -24,7 +24,7 @@ body {
 }
 
  .header {
-   background: linear-gradient(to bottom, #638eeb 0%, #0073da 100%);
+   background: #638eeb;
  }
 
  .par {
@@ -38,8 +38,8 @@ body {
  }
 
  .middle {
-   background: linear-gradient(to bottom, #638eeb 0%, #0073da 100%);
-   margin-top: 10vh;
+   background: #638eeb;
+   margin-top: 15vh;
 
  }
 
