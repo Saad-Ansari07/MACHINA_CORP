@@ -71,14 +71,12 @@ body {
   color: black;
   padding: 40px;
 }
-
 .menu {
   position: absolute;
   top: 4vh;
   left: 25vh;
   display: inline-block;
 }
-
 .btn {
   border-radius: 5px;
   border-color: white;
@@ -98,79 +96,3 @@ body {
   background-color: rgb(250, 221, 221);
   cursor: pointer;
 }
-.drop-menu {
-  display: none;
-  position: absolute;
-  max-height: 160px;
-  min-width: 50px;
-  background-color: #0073da;
-  box-shadow: #033e72;
-}
-
-.drop-menu p {
-  color: white;
-  text-decoration: none;
-  font-weight: 1px;
-  font-family: Impact, fantasy; 
-  font-size: 17px;
-  display: inline;
-} 
-
-.drop-menu p:hover {
-  background-color: #73bbfa;
-}
-
-.menu:hover .drop-menu {
-  display: block;
-}
-
-.icon1{
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-right: 30vh;
-}
-.icon2{
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-right: 30vh;
-  margin-top: 0.5vh;
-}
-.icon3{
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-right: 30vh;
-  margin-top: 1vh;
-}
-.icon4{
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  margin-right: 30vh;
-  margin-top: 1.2vh;
-}
- .a6 {
-  position: absolute;
-  left: 4.5vh;
-  top: 1vh;
-}
-.a7 {
-  position: absolute;
-  left: 4.5vh;
-  top: 5.5vh;
-}
-.a8 {
-  position: absolute;
-  left: 4.5vh;
-  top: 9.9vh;
-}
-.a9 {
-  position: absolute;
-  left: 4.5vh;
-  top: 15vh;
-} 
-
-
- 
